@@ -1,19 +1,29 @@
 *{
-    font-family: "Audiowide", sans-serif;
+    font-family: "birthstone", sans-serif;
     text-decoration: none;
     text-align: center;
     margin: 0;
     padding: 0;
     color: white;
+    font-size: 28px;
 }
-
+.birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 800000;
+  font-style: normal;
+}
+.niconne-regular {
+  font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 body{
-    background-color: #b7410e;
+    background-color: #002147;
     min-width: 100vh;
 }
 
 nav{
- background-color: #803B20;
+ background-color: rgb(14, 14, 59);
  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,7 +49,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #74361d;
+    background-color: rgb(24, 24, 99);
 }
 
 nav li:first-child{
@@ -48,6 +58,7 @@ nav li:first-child{
 h1{
     color: white;
     padding-top: 20px;
+    font-size: 40px;
 }
 p{
     color: white;
@@ -80,35 +91,17 @@ h5{
     color: white;
     font-size: 30px;
 }
-who ul {
-  list-style: none; 
-    padding: 20px;
-    align-items: center;
-    display: flex;
-}
 
-who li {
-  float: left; /* Floats list items to the left */
-  margin-right: 10px;
-  padding-left: 10px;
-  align-items: center;
-}
-
-who img {
-  border-radius: 20px;
-}
-who img:hover {
-  border-radius: 20px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-}
-.checked {
-  color: rgb(255, 213, 0);
-}
-.checkeds {
-  color: rgb(255, 0, 0);
-}
 imgnav img{
     width: 30px;
     height: 30px;
     padding-right: 20px;
+}
+list li{
+    padding-bottom: 20px;
+}
+list img{
+    border-radius: 70px;
+    width: 600px;
+    height: 400px;
 }
