@@ -1,0 +1,79 @@
+*{
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #b7410e;
+    min-width: 100vh;
+}
+
+nav{
+ background-color: #803B20;
+ box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1)
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+    
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #74361d;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+h1{
+    color: white;
+    padding-top: 20px;
+}
+p{
+    color: white;
+    padding-top: 20px;
+}
+img{
+    width: 80%;
+    height: 50%;
+    padding-top: 20px;
+    border-radius: 80px;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
+p{
+    padding-top: 20px;
+}
+h3{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+imgnav img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
